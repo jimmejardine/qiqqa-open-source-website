@@ -1,0 +1,744 @@
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset 
+{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #CCC;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset label 
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input[type=text], input[type=password], select, textarea
+{
+    width: 200px;
+    border: 1px solid #CCC;
+    background:#fefffe url("/Content/images/ImgRender/type_gradient_tb_0_w_1_h_36_c_f9f9f9_l_5.png") repeat-x;
+    color:#333;
+    padding-left:2px;
+    padding-right:2px;
+}
+
+div.bigForm input[type=text], div.bigForm input[type=password], div.bigForm select, div.bigForm textarea
+{
+    width: 400px;
+    border: 1px solid #CCC;
+    background:#fefffe url("/Content/images/ImgRender/type_gradient_tb_0_w_1_h_36_c_f9f9f9_l_5.png") repeat-x;
+    color:#333;
+}
+
+
+
+textarea
+{
+	height:200px;
+}
+
+
+
+
+
+
+
+/* template  was here */
+
+
+
+
+
+ul.validation-summary-errors li
+{
+	color:#e00;
+}
+
+span.field-validation-error
+{
+	color:#e00;
+}
+
+
+
+
+
+ul li
+{
+	line-height:1.8em;
+	color:#5E5E5E;
+}
+
+ul.plain
+{
+    padding-left:0px;
+}
+
+ul.plain li, li.plain
+{
+    list-style-type:none;
+}
+
+
+
+ul.ticked li, li.ticked
+{
+	list-style-image:url(/Content/images/tick_12_12.gif);
+}
+
+
+ul.crossed li, li.crossed
+{
+	list-style-image:url(/Content/images/cross_12_12.gif);
+}
+
+
+.fright
+{
+	float:right;
+}
+
+.fleft
+{
+	float:left;	
+}
+
+.clear{
+	clear:both;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.autoTabs
+{
+    display:none;
+}
+
+
+/* Validation */
+.validation-summary {
+    border: 2px solid red;
+    color: red;
+    margin: 5px 0px;
+    padding: 15px;
+    background: #fff url(/Content/images/Validation/Validation.png) no-repeat 5px 50%;
+}
+
+
+div.validation-summary-errors  
+{
+    font-weight: bold; 
+    color: #d71d1e;
+    margin-left: 50px;
+}
+ 
+.validation-summary-errors ul
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    list-style: square;
+    font-weight:normal;
+}
+
+.validation-summary-errors ul li
+{
+	color: #d71d1e;
+}
+
+
+.logonControl { padding:30px 20px 0 0; margin:0; width:450px; float:right; color:#fff; text-align:right; }
+.logonControl a { color:#fff; font-size:11px; text-decoration:none;	font-weight:bold;}
+
+#pnlLanguageControl
+{
+	padding:10px;display:none;position:absolute;right:5px;top:60px;background:#efefef;border:solid 1px #333;
+}
+
+#pnlLanguageControl a
+{
+	color:#005e9b;
+}
+
+.hint
+{
+	color:#666;
+}
+
+.italics
+{
+	font-style:italic;
+}
+
+.twoColRight
+{
+	float:right;
+	width:300px;
+	border-left:dashed 1px #ddd;
+	padding-left:20px;
+}
+
+.twoColLeft
+{
+	float:left;width:600px;
+}
+
+.sideBar {
+    background: white;
+    padding: 10px;
+    border: solid 1px #ddd;
+    
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -opera-border-radius:4px;
+    -khtml-border-radius:4px;
+    border-radius:4px;
+    
+    -moz-box-shadow: 4px 4px 5px #999;
+    -ms-box-shadow: 4px 4px 5px #999;
+    -webkit-box-shadow: 4px 4px 5px #999;
+    -opera: 4px 4px 5px #999;
+    -khtml: 4px 4px 5px #999;
+    box-shadow: 4px 4px 5px #999;
+}
+
+.sideBarSubContent {
+    border-bottom:1px solid #ccc;
+    margin-bottom:1em;
+}
+
+
+.highlight
+{
+	color: #1e9441; 
+}
+
+.highlightStrip
+{
+	background-color: #f4eebf; 
+	padding:3px;
+	color:#333;
+}
+
+
+
+div.hr
+{
+	border-bottom:solid 1px #C0C0C0;
+	margin-bottom:1em;
+}
+
+
+
+.roundedBorder4{
+   -moz-border-radius:4px;
+   -webkit-border-radius:4px;
+   -opera-border-radius:4px;
+   -khtml-border-radius:4px;
+   border-radius:4px;
+}
+
+.roundedBorder8{
+   -moz-border-radius:8px;
+   -webkit-border-radius:8px;
+   -opera-border-radius:8px;
+   -khtml-border-radius:8px;
+   border-radius:8px;
+}
+
+
+
+
+/* My Jquery-UI hacks */
+.ui-menu
+{
+	z-index:10;
+}
+
+button.ui-button-icons-only
+{
+	width:3.1em;
+	padding:2px 0px;
+}
+
+h3.ui-accordion-header span
+{
+	padding-bottom:0px; /* get icons to work properly in accordian*/
+}
+
+
+/* Menu */
+ul.ui-menu { padding-left:10px;}
+.ui-menu li{ list-style:none; line-height:1em; }
+
+
+.reverseText
+{
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	font-family: Verdana; /* IE */
+}
+
+sub
+{
+	color:#999;
+}
+
+
+.fb-like iframe{min-height:80px !important;}
+
+
+/* Tab themes */
+
+
+
+.tabsThemeMinimal {
+	background: transparent;
+	border: none;
+}
+.tabsThemeMinimal  .ui-widget-header {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.tabsThemeMinimal .ui-tabs-nav .ui-state-default {
+	background: transparent;
+	border: none;
+}
+.tabsThemeMinimal .ui-tabs-nav .ui-state-active {
+	background: transparent url(/Content/images/Tabs/uiTabsArrow.png) no-repeat bottom center;
+	border: none;
+}
+
+.tabsThemeMinimal .ui-tabs-nav .ui-state-default a {
+	color: #807F7F;
+}
+.tabsThemeMinimal .ui-tabs-nav .ui-state-active a {
+	color: #005E9B;
+}
+
+.tabsThemeMinimal .ui-corner-all
+{
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.tabsThemeMinimal .ui-tabs-panel
+{
+	padding:1em 0;
+}
+	
+	
+/* editable select */
+
+input.editable-select {
+background: #FFF url(/Content/css/editableselect/images/arrow-down.gif) right center no-repeat;
+padding-right: 13px;
+}
+.editable-select-options {
+position: absolute;
+display: none;
+overflow: auto;
+margin: 0;
+padding: 0;
+background: #FFF;
+border: 1px solid #CCC;
+z-index: 10;
+}
+.editable-select-iframe {
+position: absolute;
+background: #FFF;
+z-index: 9;
+display: none;
+}
+.editable-select-options ul {
+margin: 0;
+padding: 0;
+z-index: 10;
+list-style: none;
+list-style-image: none;
+}
+.editable-select-options li {
+    cursor: default;
+    padding: 2px;
+}
+.editable-select-options li.selected {
+    background: #EAEAEA;
+}
+
+/* editable select end */
+
+
+/* alt bootstraps  - genned via less on bootstap base*/
+
+.btn-primary-orange 
+{
+  background-color: #f8ac06;
+  background-image: -moz-linear-gradient(top, #f89406, #f8d106);
+  background-image: -ms-linear-gradient(top, #f89406, #f8d106);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f89406), to(#f8d106));
+  background-image: -webkit-linear-gradient(top, #f89406, #f8d106);
+  background-image: -o-linear-gradient(top, #f89406, #f8d106);
+  background-image: linear-gradient(top, #f89406, #f8d106);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f89406', endColorstr='#f8d106', GradientType=0);
+  border-color: #f8d106 #f8d106 #ad9204;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #f8d106;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-primary-orange:hover,
+.btn-primary-orange:active,
+.btn-primary-orange.active,
+.btn-primary-orange.disabled,
+.btn-primary-orange[disabled] {
+  background-color: #f8d106;
+  *background-color: #dfbc05;
+}
+.btn-primary-orange:active,
+.btn-primary-orange.active {
+  background-color: #c6a705 \9;
+}
+
+
+
+.btn-primary-green {
+  background-color: #46a550;
+  background-image: -moz-linear-gradient(top, #46a546, #46a55e);
+  background-image: -ms-linear-gradient(top, #46a546, #46a55e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#46a546), to(#46a55e));
+  background-image: -webkit-linear-gradient(top, #46a546, #46a55e);
+  background-image: -o-linear-gradient(top, #46a546, #46a55e);
+  background-image: linear-gradient(top, #46a546, #46a55e);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#46a546', endColorstr='#46a55e', GradientType=0);
+  border-color: #46a55e #46a55e #2f6f3f;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #46a55e;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-primary-green:hover,
+.btn-primary-green:active,
+.btn-primary-green.active,
+.btn-primary-green.disabled,
+.btn-primary-green[disabled] {
+  background-color: #46a55e;
+  *background-color: #3e9354;
+}
+.btn-primary-green:active,
+.btn-primary-green.active {
+  background-color: #378149 \9;
+}
+
+
+
+
+
+.btn-primary-purple {
+  background-color: #8643b6;
+  background-image: -moz-linear-gradient(top, #7a43b6, #9743b6);
+  background-image: -ms-linear-gradient(top, #7a43b6, #9743b6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7a43b6), to(#9743b6));
+  background-image: -webkit-linear-gradient(top, #7a43b6, #9743b6);
+  background-image: -o-linear-gradient(top, #7a43b6, #9743b6);
+  background-image: linear-gradient(top, #7a43b6, #9743b6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7a43b6', endColorstr='#9743b6', GradientType=0);
+  border-color: #9743b6 #9743b6 #682e7e;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #9743b6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-primary-purple:hover,
+.btn-primary-purple:active,
+.btn-primary-purple.active,
+.btn-primary-purple.disabled,
+.btn-primary-purple[disabled] {
+  background-color: #9743b6;
+  *background-color: #873ca3;
+}
+.btn-primary-purple:active,
+.btn-primary-purple.active {
+  background-color: #783591 \9;
+}  
+
+/* end alt bootstraps */
+
+
+.footerShadow{
+    -moz-box-shadow: 0px 4px 5px #999;
+    -ms-box-shadow: 0px 4px 5px #999;
+    -webkit-box-shadow: 0px 4px 5px #999;
+    -opera: 0px 4px 5px #999;
+    -khtml: 0px 4px 5px #999;
+    box-shadow: 0px 4px 5px #999;
+}
+
+
+
+
+/* lib */
+
+
+#libName
+{
+ margin-bottom:10px;   
+}
+
+#divLibrary
+{
+ border-top:solid 1px #333   
+}
+
+#divLibrary_wrapper .dataTables_paginate 
+{
+    margin-bottom:10px;
+}
+
+#divLibrary_wrapper .dataTables_paginate .paginate_button
+{
+    padding:2px;   
+}
+
+
+/* misc site-wide */
+
+.inlineTestimonial
+{
+    font-style:italic;
+    color:#3DA31F;
+}
+
+
+
+#flashMessagePanel
+{
+    display: none;
+    margin: 5px auto 0 auto;
+    background: #FFF500;
+    font-size: 18px;
+    z-index:100;
+    background-image:url(/Content/images/FlashBg.gif);
+    padding: 10px;    
+
+    border: solid 1px #ddd;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -opera-border-radius:4px;
+    -khtml-border-radius:4px;
+    border-radius:4px;
+    
+    -moz-box-shadow: 4px 4px 5px #999;
+    -ms-box-shadow: 4px 4px 5px #999;
+    -webkit-box-shadow: 4px 4px 5px #999;
+    -opera: 4px 4px 5px #999;
+    -khtml: 4px 4px 5px #999;
+    box-shadow: 4px 4px 5px #999;
+}
+
+#flashMessagePanelDismiss
+{
+    color:#333;
+    font-size:smaller;   
+}
+
+
+/* new (react) theme overrides - temp location until changed in mixin*/
+
+.navbar.normal
+{
+    background-color:#022C41;
+}
+
+.navbar.normal .navbar-header .navbar-brand, .navbar.white .navbar-header .navbar-brand 
+{
+     padding:10px;
+}
+
+/* reduce horiz spacing of menu items to fit more in */
+.navbar.white .navbar-collapse .navbar-nav > li > a
+{
+    padding-left:14px;   
+    padding-right:14px;
+}
+
+
+
+#headerIE
+{
+ display:none;   
+}
+
+/* always monochrome logo in general */
+header.navbar.white .navbar-brand span, header.navbar.normal .navbar-brand span
+{
+    width:200px;
+    height:43px;
+    background-image:url(/Content/images/Logos/2/logo_white.png);
+    background-repeat:no-repeat;   
+    display:block;
+}
+
+/* except when a white header, and wide screen */
+@media (min-width: 768px){
+    header.navbar.white .navbar-brand span
+    {
+        background-image:url(/Content/images/Logos/2/logo.png);
+    }
+}
+
+
+header.navbar-fixed-top, .navbar-fixed-bottom
+{
+    -webkit-transform: translateZ(0);   /* overcome Chrome rendering bug where scrolling to bottom, then up to top, makes header disappear. http://stackoverflow.com/questions/15152470/chrome-rendering-issue-fixed-position-anchor-with-ul-in-body */
+}
+
+
+
+div.has-navbar-fixed-top
+{
+    margin-top:80px; /* allow space for fixed header */   
+}
+
+
+#footer-white {
+  background: #fefefe;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top:solid 1px #eaeaea;
+}
+
+#footer-white .menu ul li
+{
+  margin-bottom:0px;   
+}
+
+#footer-white .credits
+{
+  margin-top:4px;   
+}
+
+
+
+
+#footer {
+  background:#333;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:#999;
+  font-size:0.8em;
+}
+
+
+#footer ul 
+{
+    list-style-type: none;
+}
+
+#footer ul li
+{
+    display:inline;
+    text-transform:uppercase;
+}
+
+#footer ul li a::before
+{
+    content:" \2022  ";
+}
+
+
+#footer a
+{
+    color:#999;
+}
+
+
+.pageContentHeader
+{
+    border-bottom:solid 1px #efefef;margin-bottom:1em;
+}
+
+
+body
+{
+    margin-bottom:60px; /* enough for fixed footer  */   
+}
+
+body.heroPage
+{
+    margin-bottom:0px; /* but not for heros */   
+}
+
+#wrap
+{
+  margin-bottom:40px; /* content padding */
+}
+
+
+
+/* bootstrap niceties */
+
+/* add icon indicator to accordian */
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: gray;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+div.rows-spaced .row {
+    margin-bottom:10px;
+}
+
+
+/* my utils */
+
+.single-line-text
+{
+    max-height:1.4em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;
+}
+
+.fullWidth
+{
+    width:100%;   
+}
+
+ul.horizontal li
+{
+       display:inline;
+}

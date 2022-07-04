@@ -1,0 +1,46 @@
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables row classes
+*/
+ 
+table.dataTable tr.odd.gradeA {
+	background-color: #ddffdd;
+}
+
+table.dataTable tr.even.gradeA {
+	background-color: #eeffee;
+}
+
+table.dataTable tr.odd.gradeC {
+	background-color: #ddddff;
+}
+
+table.dataTable tr.even.gradeC {
+	background-color: #eeeeff;
+}
+
+table.dataTable tr.odd.gradeX {
+	background-color: #ffdddd;
+}
+
+table.dataTable tr.even.gradeX {
+	background-color: #ffeeee;
+}
+
+table.dataTable tr.odd.gradeU {
+	background-color: #ddd;
+}
+
+table.dataTable tr.even.gradeU {
+	background-color: #eee;
+}
+
+
+tr.odd {
+		background-color: #eaeaea;
+	border-bottom:solid 1px #ddd;
+}
+
+tr.even {
+	background-color: white;
+}
